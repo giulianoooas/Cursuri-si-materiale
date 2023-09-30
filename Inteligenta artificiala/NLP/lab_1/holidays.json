@@ -1,0 +1,212 @@
+[
+    {
+        "Date": "1 ian",
+        "Day": "sâmbătă",
+        "Name": "New Year's Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "2 ian",
+        "Day": "duminică",
+        "Name": "Day after New Year's Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "24 ian",
+        "Day": "luni",
+        "Name": "Unification Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "19 feb",
+        "Day": "sâmbătă",
+        "Name": "Constantin Brancusi Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "24 feb",
+        "Day": "joi",
+        "Name": "Dragobete",
+        "Type": "Observance"
+    },
+    {
+        "Date": "1 mar",
+        "Day": "marţi",
+        "Name": "Mărțișor",
+        "Type": "Observance"
+    },
+    {
+        "Date": "8 mar",
+        "Day": "marţi",
+        "Name": "International Women's Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "20 mar",
+        "Day": "duminică",
+        "Name": "March Equinox",
+        "Type": "Season"
+    },
+    {
+        "Date": "22 apr",
+        "Day": "vineri",
+        "Name": "Orthodox Good Friday",
+        "Type": "National holiday, Orthodox"
+    },
+    {
+        "Date": "24 apr",
+        "Day": "duminică",
+        "Name": "Orthodox Easter Day",
+        "Type": "National holiday, Orthodox"
+    },
+    {
+        "Date": "25 apr",
+        "Day": "luni",
+        "Name": "Orthodox Easter Monday",
+        "Type": "National holiday, Orthodox"
+    },
+    {
+        "Date": "1 mai",
+        "Day": "duminică",
+        "Name": "Labor Day / May Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "1 mai",
+        "Day": "duminică",
+        "Name": "Mother's Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "8 mai",
+        "Day": "duminică",
+        "Name": "Father's Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "10 mai",
+        "Day": "marţi",
+        "Name": "Monarchy Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "10 mai",
+        "Day": "marţi",
+        "Name": "National Independence Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "1 iun",
+        "Day": "miercuri",
+        "Name": "Children's Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "2 iun",
+        "Day": "joi",
+        "Name": "Orthodox Ascension Day",
+        "Type": "Observance, Orthodox"
+    },
+    {
+        "Date": "12 iun",
+        "Day": "duminică",
+        "Name": "Orthodox Pentecost",
+        "Type": "National holiday, Orthodox"
+    },
+    {
+        "Date": "13 iun",
+        "Day": "luni",
+        "Name": "Orthodox Pentecost Monday",
+        "Type": "National holiday, Orthodox"
+    },
+    {
+        "Date": "21 iun",
+        "Day": "marţi",
+        "Name": "June Solstice",
+        "Type": "Season"
+    },
+    {
+        "Date": "26 iun",
+        "Day": "duminică",
+        "Name": "Flag Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "29 iul",
+        "Day": "vineri",
+        "Name": "National Anthem Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "15 aug",
+        "Day": "luni",
+        "Name": "St Mary's Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "23 sep",
+        "Day": "vineri",
+        "Name": "September Equinox",
+        "Type": "Season"
+    },
+    {
+        "Date": "31 oct",
+        "Day": "luni",
+        "Name": "Halloween",
+        "Type": "Observance"
+    },
+    {
+        "Date": "30 noi",
+        "Day": "miercuri",
+        "Name": "St Andrew's Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "1 dec",
+        "Day": "joi",
+        "Name": "National Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "2 dec",
+        "Day": "vineri",
+        "Name": "Public Sector Holiday",
+        "Type": "Public Holiday"
+    },
+    {
+        "Date": "8 dec",
+        "Day": "joi",
+        "Name": "Constitution Day",
+        "Type": "Observance"
+    },
+    {
+        "Date": "21 dec",
+        "Day": "miercuri",
+        "Name": "December Solstice",
+        "Type": "Season"
+    },
+    {
+        "Date": "24 dec",
+        "Day": "sâmbătă",
+        "Name": "Christmas Eve",
+        "Type": "Observance"
+    },
+    {
+        "Date": "25 dec",
+        "Day": "duminică",
+        "Name": "Christmas Day",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "26 dec",
+        "Day": "luni",
+        "Name": "Second day of Christmas",
+        "Type": "National holiday"
+    },
+    {
+        "Date": "31 dec",
+        "Day": "sâmbătă",
+        "Name": "New Year's Eve",
+        "Type": "Observance"
+    }
+]

@@ -1,0 +1,1 @@
+Nu am fisierul de la colcviu, dar a trebuit sa adaug ceva.

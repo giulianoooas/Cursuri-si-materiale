@@ -1,0 +1,60 @@
+1. Ce este tangenta hiberbolica?
+A. o masura de performanta
+B. o metoda de regularizare
+C. o functie de pierdere
+D. o functie de activare
+
+2. Care este, in general, beneficiul adus de utilizarea a mai multe straturi de neuroni (doua sau mai multe) in cazul relelelor neurale?
+A. Marirea numarului de parametrii prin utilizarea a mai multe straturi de neuroni duce la prevenirea fenomenului de overfitting.
+B. Utilizarea unui numar mare de straturi de neuroni cu activare liniara duce la o putere de modelare sporita.
+C. Marirea numarului de parametrii prin utilizarea a mai multe straturi de neuroni duce la prevenirea fenomenului de regularizare.
+D. Utilizarea a mai multe straturi permite invatarea automata a unor reprezentari din ce in ce mai abstracte a inputurilor.
+
+3. Functia de scufundare (x1, x2) -> (z1, z2, z3, z4), cu z1 = x1 * x2, z2 = x2 * x1, z3 = x1^2, z4= x2^4, este un caz particular corespunzator functiei kernel:
+A. Polinomiale
+B. Liniare
+C. Gaussiene
+D. Duale
+
+4. Care sunt valorile urmatoarelor exemple de antrenare dupa ce se aplica normalizarea L1, X = [[1, 2, 3, 5], [-1, -2, -3, 1], [-0.5, 0.5, 0.3, 3]]?
+A. [[0.09, 0.18, 0.27, 0.45], [-0.14, -0.28, -0.42, 0.14], [-0.11, 0.11, 0.06, 0.69]]
+B. [[-0.09, -0.18, -0.27, -0.45], [-0.14, -0.28, 0.42, 0.14], [-0.11, 0.11, 0.06, 0.69]]
+C. [[0.09, 0.18, 0.27], [-0.14, -0.28, 0.42], [-0.11, 0.11, 0.06]]
+D. [[0.19, 0.28, 0.27, 0.45], [-0.14, -0.28, 0.72, 0.14], [-0.11, 4.11, 0.06, 0.69]]
+
+5. Aplicati normalizarea L1 pe vectorul [4, 2, 5]. Care este vectorul cu normalizarea L1 aplicata?
+A. [0.33, 0.16, 0.5]
+B. [0.36, 0.18, 0.45]
+C. [0.5, 0.0, 1.0]
+D. [0.33, 0.27, 0.38]
+
+6. Care este beneficiul adus de normalizarea datelor in cazul utilizarii clasificatorului Naive Bayes in probleme similare cu cele studiate in cadrul laboratorului?
+A. In cazul distributiilor cu dispersie mai mare de 1 elimina problema intervalelor cu valori lipsa prin impartirea la deviatia standard si reducerea dimensiunii intervalelor cu valori lipsa.
+B. Permite utilizarea unui numar mai mic de bin-uri fara a pierde din performanta.
+C. Reduce complexitatea computationala reducand valorile din input.
+D. Niciunul. Utilizarea bin-urilor pentru fiecare trasatura in parte elimina necesitatea normalizarii.
+
+7. Cati clasificatori binari vor fi antrenati pentru o problema multi-class cu 9 clase folosind schema de combinare one-vs-all?
+A. 9
+B. 1
+C. 18
+D. 81
+
+8. Ce dimensiune spatiala va avea un activation map dupa aplicarea unui strat de pooling de 4x4 cu stride=4 pe o intrare de 64x64?
+A. 64x64
+B. 30x30
+C. 32x32
+D. 15x15
+
+9. Care este probabilitatea de aparitie clasei 3 avand urmatorul set de antrenare (exemplu, eticheta): [([1, 2, 3], 2), ([1, 4, 3], 1), ([1, 9, 3], 0), ([1, 2, 1], 1), ([11, 2, 3], 2)]
+A. 0
+B. 0.12
+C. 0.25
+D. 1
+
+10. Cati parametri antrenabili (ponderi + bias) are o retea neuronala cu stratul de intrare avand 8 componente, un strat ascuns de 32 neuroni si stratul de iesire cu 10 neuroni?
+A. 313
+B. 256
+C. 192
+D. 618
+

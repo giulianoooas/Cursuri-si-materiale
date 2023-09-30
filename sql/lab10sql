@@ -1,0 +1,104 @@
+SELECT employee_id, last_name, salary, department_id
+FROM employees
+WHERE employee_id = &p_cod;
+
+set verify on;
+DEFINE p_cod; --Ce efect are?
+SELECT employee_id, last_name, salary, department_id
+FROM employees
+WHERE employee_id = &p_cod;
+UNDEFINE p_cod;
+
+
+DEFINE p_cod=100;
+SELECT employee_id, last_name, salary, department_id
+FROM employees
+WHERE employee_id = &&p_cod;
+UNDEFINE p_cod;
+
+ACCEPT p_cod PROMPT “cod= “;
+define;
+SELECT employee_id, last_name, salary, department_id
+FROM employees
+WHERE employee_id = &p_cod;
+
+accept p_job prompt "job = "
+define p_job = 'AD_VP'
+select last_name,first_name,department_id, 12*salary as salariul_anual
+from employees
+where job_id = '&p_job';
+UNDEFINE p_job;
+
+accept p_data prompt "data = "
+select last_name,first_name,department_id, 12*salary as salariul_anual
+from employees
+where hire_date >= to_date('&p_data');
+UNDEFINE p_data;
+
+SELECT &&p_coloana -- && determina ca valoarea lui p_coloana san nu mai
+
+--fie ceruta si pentru clauza ORDER BY, urmand sa
+--fie utilizata valoarea introdusa aici pentru toate
+--aparitiile ulterioare ale lui &p_coloana
+
+FROM &p_tabel
+WHERE &p_where
+ORDER BY &p_coloana;
+
+select last_name, first_name, department_name, e.job_id
+from employees e, departments d, locations l
+where d.department_id = e.department_id and 
+l.location_id = d.location_id
+and lower(city) = lower('&city');
+
+select d.department_id as id, e.employee_id as functionari
+from employees e, departments d
+where d.department_id(+) = e.department_id
+union
+select department_id as id, NULL as functionari
+from departments d
+where not exists(
+  select 1
+  from employees e
+  where e.department_id = d.department_id
+);
+
+select last_name, first_name, to_char(hire_date, 'dd-mon-yyyy') as hire_date,
+round(salary/ 1.2,2), department_name,
+to_date('1 jun 2010','dd mon yyyy') - hire_date
+from employees e, departments d
+where d.department_id = e.department_id;
+
+select decode(phone_number, 
+  'ddd.123.dddd', 'ddd.033.dddd', phone_number
+), employee_id
+from employees;
+
+CREATE TABLE EMP_dfg AS SELECT * FROM employees;
+CREATE TABLE DEPT_dfg AS SELECT * FROM departments;
+select *
+from emp_dfg;
+select *
+from dept_dfg;
+
+describe emp_dfg;
+
+ALTER TABLE emp_dfg
+ADD CONSTRAINT pk_emp_dfg PRIMARY KEY(employee_id);
+ALTER TABLE dept_dfg
+ADD CONSTRAINT pk_dept_dfg PRIMARY KEY(department_id);
+ALTER TABLE emp_dfg
+ADD CONSTRAINT fk_emp_dept_dfg
+FOREIGN KEY(department_id) REFERENCES dept_dfg(department_id);
+
+select *
+from emp_dfg e, dept_dfg d
+where d.department_id(+) = e.department_id;
+
+INSERT INTO DEPT_dfg
+VALUES (300, 'Programare', null, null);
+
+INSERT INTO DEPT_dfg (department_name, location_id)
+VALUES ('Programare', null);
+
+-- tema 
